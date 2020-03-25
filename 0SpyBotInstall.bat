@@ -39,7 +39,7 @@ if not exist "%ProgramFiles(x86)%\Spybot - Search & Destroy 2\SDWelcome.exe" (
 	start /wait "stage_8_custom_scripts\spybot-2.4.exe" /SP- /VERYSILENT /SUPRESSMSGBOXES /NORESTART
 )
 
-:: Run Spybot Updater and open the Sacnner window
+:: Run Spybot Updater and open the Scanner window
 call functions\log.bat "%CUR_DATE% %TIME%    Spybot installation detected successfully. Launching updater."
 start /wait "%ProgramFiles(x86)%\Spybot - Search & Destroy 2\SDUpdate.exe"
 
